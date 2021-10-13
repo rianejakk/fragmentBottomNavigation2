@@ -2,12 +2,20 @@ package com.rianezza.fragmentbottomnavigation;
 
 import android.os.Bundle;
 
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -56,14 +64,25 @@ public class ChatFragment extends Fragment {
         }
     }
 
+    ListView contact_list;
+    String[] contacts = {"Ei", "Samantha", "Rachel", "Mia"};
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        View view = inflater.inflate(R.layout.fragment_chat, container, false);
+        contact_list = (ListView)view.findViewById(R.id.chat_contacts);
+        ArrayAdapter<String> adapter =  new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, contacts);
+        contact_list.setAdapter(adapter);
 
+        contact_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Toast.makeText(getActivity().getApplicationContext(), "Clicked " +adapterView.getItemAtPosition(i), Toast.LENGTH_SHORT).show();
+            }
+        });
 
-
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_chat, container, false);
+        return view;
     }
 }

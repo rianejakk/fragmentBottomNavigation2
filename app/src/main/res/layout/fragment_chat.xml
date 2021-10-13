@@ -6,9 +6,11 @@
     tools:context=".ChatFragment"
     android:orientation="vertical">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <ListView
+        android:id="@+id/chat_contacts"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

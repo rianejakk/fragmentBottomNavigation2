@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StatusFragment"
     android:orientation="vertical"
-    android:background="#D1E7FB">
+    android:background="#FFC8C8">
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Seems you don't have any"
+        android:textAlignment="center"
+        android:layout_marginTop="320dp"
+        android:textSize="9pt"
+        android:fontFamily="serif-monospace"
+        />
 
-</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:backgroundTint="#B50000"
+        android:layout_marginTop="350dp"
+        android:gravity="center"
+        android:text="Create One"/>
+
+</RelativeLayout>
