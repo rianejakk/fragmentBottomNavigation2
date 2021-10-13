@@ -6,6 +6,8 @@
     tools:context=".ChatFragment"
     android:orientation="vertical">
 
+<!--  Add ListView  -->
+
     <ListView
         android:id="@+id/chat_contacts"
         android:layout_width="match_parent"

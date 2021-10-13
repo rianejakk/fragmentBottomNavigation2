@@ -3,6 +3,8 @@ package com.rianezza.fragmentbottomnavigation;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+// Planned to add recycleView on ChatFragment, but scrapped
+
 public class chat_item implements Parcelable {
     private String contact;
     private String chat;

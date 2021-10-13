@@ -64,8 +64,10 @@ public class ChatFragment extends Fragment {
         }
     }
 
-    ListView contact_list;
-    String[] contacts = {"Ei", "Samantha", "Rachel", "Mia"};
+//  Menampilkan ListView pada ChatFragment
+
+    ListView contact_list;  //  Inisiasi variabel ListView
+    String[] contacts = {"Ei", "Samantha", "Rachel", "Mia"}; // Inisiasi array string
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -76,6 +78,7 @@ public class ChatFragment extends Fragment {
         ArrayAdapter<String> adapter =  new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, contacts);
         contact_list.setAdapter(adapter);
 
+//      Menampilkan toast saat menekan object ListView
         contact_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
