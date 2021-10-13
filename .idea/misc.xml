@@ -3,7 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Lemme measure ur pp/Projects Goes Here/Everynyan/Fragment/fragmentBottomNavigation2/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Lemme measure ur pp/Projects Goes Here/Everynyan/Fragment/fragmentBottomNavigation2/app/src/main/res/drawable/ic_baseline_ad_units_24.xml" value="0.240625" />
+        <entry key="..\:/Lemme measure ur pp/Projects Goes Here/Everynyan/Fragment/fragmentBottomNavigation2/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.240625" />
+        <entry key="..\:/Lemme measure ur pp/Projects Goes Here/Everynyan/Fragment/fragmentBottomNavigation2/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.240625" />
+        <entry key="..\:/Lemme measure ur pp/Projects Goes Here/Everynyan/Fragment/fragmentBottomNavigation2/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Lemme measure ur pp/Projects Goes Here/Everynyan/Fragment/fragmentBottomNavigation2/app/src/main/res/layout/chat_item.xml" value="0.5" />
+        <entry key="..\:/Lemme measure ur pp/Projects Goes Here/Everynyan/Fragment/fragmentBottomNavigation2/app/src/main/res/layout/fragment_call.xml" value="0.18568840579710144" />
+        <entry key="..\:/Lemme measure ur pp/Projects Goes Here/Everynyan/Fragment/fragmentBottomNavigation2/app/src/main/res/layout/fragment_chat.xml" value="0.22" />
+        <entry key="..\:/Lemme measure ur pp/Projects Goes Here/Everynyan/Fragment/fragmentBottomNavigation2/app/src/main/res/layout/fragment_status.xml" value="0.25" />
+        <entry key="..\:/Lemme measure ur pp/Projects Goes Here/Everynyan/Fragment/fragmentBottomNavigation2/app/src/main/res/menu/bottom_nav.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>
